@@ -139,7 +139,7 @@
             <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_lieLk5fLEemFN5QIFVqLZw"/>
           </children>
           <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_lieLhZfLEemFN5QIFVqLZw" fontName="Segoe UI" showListSignature="true" showStereotype="Label"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lieLhpfLEemFN5QIFVqLZw" x="2219" y="9827"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lieLhpfLEemFN5QIFVqLZw" x="2640" y="10956"/>
         </children>
         <children xmi:id="_lieLlJfLEemFN5QIFVqLZw" element="_lMzOUJesEemFN5QIFVqLZw">
           <children xmi:id="_lieLl5fLEemFN5QIFVqLZw" type="ImageCompartment">
@@ -3101,7 +3101,7 @@ cantMax=false</body>
         </message>
         <message xmi:id="_xjVqG730EemUO5d21eTeNA" name="listBySocio" messageSort="reply" receiveEvent="_xjIOvr30EemUO5d21eTeNA" sendEvent="_xjIOvb30EemUO5d21eTeNA" connector="_xjgpMb30EemUO5d21eTeNA">
           <eAnnotations xmi:id="_xjVqHL30EemUO5d21eTeNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <details xmi:id="_xjVqHb30EemUO5d21eTeNA" key="sanciones:Sancion[]"/>
+            <details xmi:id="_sOojUL4BEemWkJ3dE9jR-A" key="sanciones:Sancion[*]"/>
           </eAnnotations>
         </message>
         <message xmi:id="_xjVqHr30EemUO5d21eTeNA" name="getOne" receiveEvent="_xiZO4L30EemUO5d21eTeNA" sendEvent="_xiYAwL30EemUO5d21eTeNA" connector="_xjgCIr30EemUO5d21eTeNA"/>
@@ -3586,7 +3586,7 @@ cantMax=false</body>
                     <layoutConstraint xmi:type="notation:Ratio" xmi:id="_DMyi8bGSEemv_4nczXASJw" value="0.32819763580820827"/>
                   </children>
                   <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_H1EyIbGREemv_4nczXASJw" fontName="Segoe UI" showStereotype="Label"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H1EyIrGREemv_4nczXASJw" x="4674" y="667" width="44643" height="7529"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H1EyIrGREemv_4nczXASJw" x="4674" y="673" width="49793" height="8084"/>
                 </children>
                 <children xmi:id="_2pA7QLchEemcRpal35fbuw" element="_2o1VELchEemcRpal35fbuw">
                   <children xmi:id="_2pCJYLchEemcRpal35fbuw" element="_2o18ILchEemcRpal35fbuw">
@@ -6309,6 +6309,8 @@ linea y</body>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t0Rl0bJYEemLd6jLU7fQEA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t0Rl0LJYEemLd6jLU7fQEA" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_fE5F4L4BEemWkJ3dE9jR-A" name="dias" visibility="private"/>
+      <ownedAttribute xmi:id="_gADtoL4BEemWkJ3dE9jR-A" name="fecha" visibility="private"/>
       <ownedOperation xmi:id="_Nug_AL34Eema8Zj8P_r8vA" name="getFecha"/>
       <ownedOperation xmi:id="_PQRssL34Eema8Zj8P_r8vA" name="getDias"/>
     </packagedElement>
