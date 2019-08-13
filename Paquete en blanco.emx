@@ -4499,7 +4499,7 @@ cantMax=false</body>
                       <children xmi:id="_ARuF5L38Eem0c-eDFTCFrA" type="Stereotype"/>
                       <children xmi:id="_ARuF5b38Eem0c-eDFTCFrA" type="CommentBody"/>
                       <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_ARte0b38Eem0c-eDFTCFrA" fontName="Segoe UI" fontHeight="8" fillColor="16763850" lineColor="16744576" showStereotype="Label"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ARte0r38Eem0c-eDFTCFrA" x="3301" y="88"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ARte0r38Eem0c-eDFTCFrA" x="3116" y="-32"/>
                     </children>
                     <children xmi:id="_OW6e8L38Eem0c-eDFTCFrA" element="_OW0YUL38Eem0c-eDFTCFrA">
                       <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_OW6e8b38Eem0c-eDFTCFrA" fontName="Segoe UI" showStereotype="Label"/>
@@ -4751,7 +4751,7 @@ cantMax=false</body>
               </children>
               <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_tlOKgb37Eem0c-eDFTCFrA" fontName="Segoe UI" lineWidth="1" showStereotype="Text"/>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tlOKgr37Eem0c-eDFTCFrA" points="[0, 0, -436, 0]$[436, 0, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tlR04L37Eem0c-eDFTCFrA" id="1266:1719"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tlR04L37Eem0c-eDFTCFrA" id="1266:1931"/>
               <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tlR04b37Eem0c-eDFTCFrA" id="1350:0"/>
             </edges>
             <edges xmi:id="_tlU4ML37Eem0c-eDFTCFrA" element="_tkvCUb37Eem0c-eDFTCFrA" source="_oJKxgL37Eem0c-eDFTCFrA" target="_k1TVgpfGEemFN5QIFVqLZw">
@@ -4884,7 +4884,7 @@ linea y</body>
         <fragment xmi:type="uml:CombinedFragment" xmi:id="_-6r28L36Eem0c-eDFTCFrA" covered="_k1TVgJfGEemFN5QIFVqLZw _oJCOoL37Eem0c-eDFTCFrA _zCTeQL37Eem0c-eDFTCFrA _GrY9sL38Eem0c-eDFTCFrA" interactionOperator="loop">
           <operand xmi:id="_-6r28b36Eem0c-eDFTCFrA">
             <ownedComment xmi:id="_ARrpoL38Eem0c-eDFTCFrA" annotatedElement="_k1TVgJfGEemFN5QIFVqLZw">
-              <body>dias=999999</body>
+              <body>dias=Integer.MAX_VALUE</body>
             </ownedComment>
             <guard xmi:id="_-6seAL36Eem0c-eDFTCFrA">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_-6tsIL36Eem0c-eDFTCFrA">
